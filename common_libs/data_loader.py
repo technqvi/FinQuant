@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[40]:
+# In[1]:
 
 
 import numpy as np
@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 
-# In[41]:
+# In[2]:
 
 
 # data_file=r"D:\PythonDev\MyQuantFinProject\Data\Tech-2Q17-Now.csv"
@@ -26,20 +26,18 @@ import numpy as np
 # to_month_str='2022-12-31'
 
 
-# In[42]:
+# In[3]:
 
 
 def load_data(mode,from_month_str,to_month_str,data_file=None):
 
 
-    # In[43]:
+    # In[4]:
 
 
     # def load_offline_data():
-    if os.path.exists(data_file):
-      print(data_file)
-    else:
-      raise Exception(f"Not found {data_file}")  
+
+    list_fund_name=[]
 
     print("Load Price Data")
 
@@ -57,7 +55,7 @@ def load_data(mode,from_month_str,to_month_str,data_file=None):
     #Check first idex >=from_str and last date=to_str 
 
 
-    # In[44]:
+    # In[5]:
 
 
     # def load_online_data():
@@ -76,7 +74,7 @@ def load_data(mode,from_month_str,to_month_str,data_file=None):
     #  list_symbol.append(x[0])
 
 
-    # In[45]:
+    # In[6]:
 
 
     print("Seperate dataframe  by symbol ")
@@ -104,13 +102,13 @@ def load_data(mode,from_month_str,to_month_str,data_file=None):
 
 
 
-    # In[46]:
+    # In[7]:
 
 
-    return dictPriceOfFund
+    return dictPriceOfFund,list_fund_name
 
 
-    # In[ ]:
+# In[ ]:
 
 
 
