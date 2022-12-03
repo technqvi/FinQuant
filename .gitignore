@@ -1,0 +1,12 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+.ipynb_checkpoints
+.env
+
+*.csv
+*.xlsx
+*png
+*.jpg
+*.xml
+
