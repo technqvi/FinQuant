@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[18]:
+# In[ ]:
 
-# Test
+
 import numpy as np
 import pandas as pd
 import sqlite3
@@ -14,16 +14,57 @@ import math
 import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
+import yfinance as yf
 
 
-# In[19]:
+# In[2]:
 
 
-# data_file=r"D:\PythonDev\MyQuantFinProject\Data\Tech-2Q17-Now.csv"
-# mode='offline'
+from_month_str='2022-12-01'
+to_month_str='2022-12-08'
 
-# from_month_str='2017-04-01'
-# to_month_str='2022-12-31'
+data_file=r"D:\PythonDev\MyQuantFinProject\Data\Tech-2Q17-Now.csv"
+
+list_analystics_cols=['symbol','price']
+
+
+# In[7]:
+
+
+def load_online_data(from_month_str,to_month_str,data_list):
+    list_not_found=[]
+    list_yahoo_cols=['Close']
+    df=pd.DataFrame(columns=list_analystics_cols)
+    print(df)
+    for ticker in data_list:
+     try:
+        dfx = yf.download(ticker, start=from_month_str, end=to_month_str)
+        if (dfx.empty==False) or (dfx is not None):
+
+            dfx=dfx[list_yahoo_cols]  # remove unwanted columns  as dedire requirement
+            dfx.insert(0, "symbol", ticker, True)
+            dfx.columns=list_analystics_cols #rename column  list cols lenght must match excactly original columns lenght 
+            print(dfx.info())
+
+            df=pd.concat([df,dfx],ignore_index=False )
+            df.index.set_names('date',inplace=True)
+
+            print(dfx.tail())
+        else:
+            print(f"{ticker} No data found for this date range, symbol may be delisted")
+            list_not_found.append(ticker) 
+
+
+     except Exception as ex:
+          print(str(ex))
+          list_not_found.append(ticker)  
+
+    return df
+
+
+# data_list=['AAXJ','3010.HK']
+# df=  load_online_data(from_month_str,to_month_str,data_list)
+# print(df)
 
 
 # In[29]:
@@ -37,11 +78,11 @@ def load_offline_data(from_month_str,to_month_str,data_file=None):
 
     df = pd.read_csv(data_file,index_col='Date/Time',parse_dates=['Date/Time'],dayfirst=True)
     df.index.set_names('date',inplace=True)
-    df=df.rename(columns={'Ticker':'symbol','close':'price'})
+    df=df.rename(columns={'Ticker':list_analystics_cols[0],'close':list_analystics_cols[1]})
     
     df=df.loc[from_month_str:to_month_str,:]
 
-    df=df[['symbol','price']]
+    df=df[list_analystics_cols]
 
     list_fund_name=df['symbol'].unique().tolist()  
 
@@ -54,31 +95,13 @@ def load_offline_data(from_month_str,to_month_str,data_file=None):
 # In[30]:
 
 
-# def load_online_data():
-#https://github.com/ranaroussi/yfinance
-# data = yf.download("SPY AAPL", start="2017-01-01", end="2017-04-30")
-# fund_symbols=df['symbol_x'].tolist()
-# fund_keys=df['symbol_key'].tolist()
-
-# symbol_str=' '.join(fund_symbols )
-# print(symbol_str)
-# list_current_price = yf.download( tickers = symbol_str,threads = True,
-#                              group_by=True,period = "1d",prepost = True)
-# list_fund= list(zip(fund_keys,fund_symbols))
-# for x in list_fund:
-#  current_price_dict[x[0]]=round( list_current_price[x[1]]['Close'][0],2)
-#  list_symbol.append(x[0])
 
 
-# In[31]:
 
-
-def load_data_groupby_symbol(mode,from_month_str,to_month_str,data_file=None):
-    print("Seperate dataframe  by symbol ")
+def group_data_by_symbol(from_month_str,to_month_str,df,list_fund_name):
+    print("Seperate dataframe  by symbol as dictionary")
     dictPriceOfFund={}
     unavaiable_funds=[]
-    
-    df,list_fund_name=load_offline_data(from_month_str,to_month_str,data_file)
     
     print(f'List Fund : {list_fund_name}')
     for name in list_fund_name:
@@ -99,14 +122,12 @@ def load_data_groupby_symbol(mode,from_month_str,to_month_str,data_file=None):
     if len(unavaiable_funds)>0:
       raise Exception(f"There are some funds are not data {unavaiable_funds}")
     
-    return dictPriceOfFund,list_fund_name
+    return dictPriceOfFund
    
 
 
-# In[33]:
-
-
-# dictPriceOfFund,list_fund_name=load_data_groupby_symbol ('offline',from_month_str,to_month_str,data_file)
+# df,list_fund_name=load_offline_data(from_month_str,to_month_str,df,list_fund_name)
+# dictPriceOfFund,list_fund_name=load_data_groupby_symbol ('offline',from_month_str,to_month_str,df,list_fund_name)
 
 # df,list_fund_name=load_offline_data(from_month_str,to_month_str,data_file)
 
