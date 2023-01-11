@@ -1,0 +1,18 @@
+# buy cal % as amounth
+# sell cal % as qty
+for index,item in dfAssetInfo.iterrows():
+    symbol=index
+    print(symbol)
+    dfBS=df[ (df['symbol']==symbol) & (df['date'].isin(tradeDateList))]
+    dfBS=dfBS.merge(dfPlan,how='inner',left_on='date',right_on='trade_date')
+    dfBS['comm']=dfBS.apply(set_commision_by_action,axis=1)
+    dfBS['price_on_comm']=dfBS.apply(lambda item : item['price']*(1+ (item['comm']/100)) if item['action']=='b' else item['price']*(1-(item['comm']/100)), axis=1)
+    dfBS['price_on_comm']=dfBS['price_on_comm'].round(2)
+    dfBS['actual_value']=dfBS['price_on_comm']*
+    #dfBS['action_value']  # buy=+ m sell=- for cumsum
+    
+    
+    
+    dfBS.reset_index(drop=True,inplace=True)
+    print(dfBS)
+    
