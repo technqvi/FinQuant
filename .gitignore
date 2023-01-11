@@ -4,8 +4,7 @@
 .ipynb_checkpoints
 .env
 
-*.csv
-*.xlsx
+
 *png
 *.jpg
 *.xml
