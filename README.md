@@ -1,1 +1,1 @@
-# Explan How  each file/folder in  FinQuant work and apply
+# Explan How  each file/folder in  FinQuant project work
