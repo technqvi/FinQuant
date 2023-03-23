@@ -10,7 +10,7 @@ Run each cell
 
 ## [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb "## AssetV2-Mini-ComparePerf.ipynb")
 
-* This file show you how to compare percentage of fund 's return on particular period 
-* Use  fund 's return to find rank between them 
+* This file show you how to compare percentage of fund 's return on particular period.
+* Use  fund 's return to find rank between them .
 * Apply fund 's return  and rank  to score these funds to find which fund to invest.
 * Find correlation between these fund  to make plan to to investment as basket asset.
