@@ -11,6 +11,8 @@ Run each cell
 ## [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb "## AssetV2-Mini-ComparePerf.ipynb") (New Version)
 ## [AssetV1-Full-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV1-Full-ComparePerf.ipynb") (Old verion)
 This file shows you how to compare the percentage of fund's return and take it to calculate rank to score the fund on particular period.
+##[TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
+Click link to look at detail
 
 ## [CountTrendByLookingBackOnIndy.ipynb](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
 - Count consecutive bars of price or technical indicator to identify price movement direction such as up or down. 
