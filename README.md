@@ -13,10 +13,13 @@ Run each cell
 This file shows you how to compare the percentage of fund's return and take it to calculate rank to score the fund on particular period.
 
 ## [CountTrendByLookingBackOnIndy](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
+- Count consecutive bars of price or technical indicator to identify price movement direction such as up or down. 
+- Use Histogram to show the distribution of how many bars of uptrend and downtrend fall into ranges.
 
 ## [FindCorrelation.ipynb](https://github.com/technqvi/FinQuant/blob/master/FindCorrelation.ipynb)
 How to find correlation of a linear relationship between two funds.
 ## [Asset-Indy-Analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-Indy-Analystics.ipynb) 
 Find the distribution of  technical indicators of Asset  by Histogram like MACD,RSI and summarize the set of data values to describe statistical methods like minimum, first quartile, median, third quartile, and maximum by Box-plot.
-##[Asset-RangeDist-PriceVol.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-RangeDist-PriceVol.ipynb)
-Find percentage of High, Low , Middle price to estimate trading range.
+## [Asset-RangeDist-PriceVol.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-RangeDist-PriceVol.ipynb)
+Find percentage of High, Low , Middle price to  trading range of given period such 10 days,25 days.
+
