@@ -12,3 +12,11 @@ Run each cell
 ## [AssetV1-Full-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV1-Full-ComparePerf.ipynb") (Old verion)
 This file shows you how to compare the percentage of fund's return and take it to calculate rank to score the fund on particular period.
 
+## [CountTrendByLookingBackOnIndy](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
+
+## [FindCorrelation.ipynb](https://github.com/technqvi/FinQuant/blob/master/FindCorrelation.ipynb)
+How to find correlation of a linear relationship between two funds.
+## [Asset-Indy-Analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-Indy-Analystics.ipynb) 
+Find the distribution of  technical indicators of Asset  by Histogram like MACD,RSI and summarize the set of data values to describe statistical methods like minimum, first quartile, median, third quartile, and maximum by Box-plot.
+##[Asset-RangeDist-PriceVol.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-RangeDist-PriceVol.ipynb)
+Find percentage of High, Low , Middle price to estimate trading range.
