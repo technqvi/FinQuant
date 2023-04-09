@@ -14,12 +14,15 @@ This file shows you how to compare the percentage of fund's return and take it t
 ##[TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
 Click link to look at detail
 
+## [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
+this folder contain common library used on  [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)  and  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb "## AssetV2-Mini-ComparePerf.ipynb"
+
 ## [CountTrendByLookingBackOnIndy.ipynb](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
 - Count consecutive bars of price or technical indicator to identify price movement direction such as up or down. 
 - Use Histogram to show the distribution of how many continue bars of uptrend and downtrend fall into ranges.
 
 ## [FindCorrelation.ipynb](https://github.com/technqvi/FinQuant/blob/master/FindCorrelation.ipynb)
-How to find correlation of a linear relationship between two funds.
+How to find a correlation of a linear relationship between several funds to find which fund has high/low relation to making a decision on diversification of your investment.
 ## [Asset-Indy-Analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-Indy-Analystics.ipynb) 
 Find the distribution of  technical indicators of Asset  by Histogram like MACD,RSI and summarize the set of data values to describe statistical methods like minimum, first quartile, median, third quartile, and maximum by Box-plot.
 ## [Asset-RangeDist-PriceVol.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-RangeDist-PriceVol.ipynb)
@@ -30,3 +33,9 @@ Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investi
  - click General Tab => Historical Data   https://www.investing.com/indices/nq-100-futures-historical-data
  - download data
  This outcome is used for import to [AMibroker](https://www.amibroker.com/)
+ ##[Find ROC Month](https://github.com/technqvi/FinQuant/tree/master/ROCMonth)
+ find rate of change (percentage of return ) on monthly timeframe of list of particular years
+ # [FeaturesMLAnalystics](https://github.com/technqvi/FinQuant/tree/master/FeaturesMLAnalystics)
+ - explore data to create feature engineerin  with technical indicator of stock  to find relationship these features.
+ - write AFL scriop on [Amibroker software](https://www.amibroker.com/) to generate trading signal logic with serveral  technical indicators  like RSI.
+ 
