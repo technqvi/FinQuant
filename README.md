@@ -12,7 +12,7 @@ Run each cell
 ## [AssetV1-Full-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV1-Full-ComparePerf.ipynb") (Old verion)
 This file shows you how to compare the percentage of fund's return and take it to calculate rank to score the fund on particular period.
 
-##[TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
+## [TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
 Click link to look at detail
 
 ## [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
@@ -34,9 +34,10 @@ Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investi
  - click General Tab => Historical Data   https://www.investing.com/indices/nq-100-futures-historical-data
  - download data
  This outcome is used for import to [AMibroker](https://www.amibroker.com/)
- ##[Find ROC Month](https://github.com/technqvi/FinQuant/tree/master/ROCMonth)
- find rate of change (percentage of return ) on monthly timeframe of list of particular years
- # [FeaturesMLAnalystics](https://github.com/technqvi/FinQuant/tree/master/FeaturesMLAnalystics)
+ 
+ ## [Find ROC Month](https://github.com/technqvi/FinQuant/tree/master/ROCMonth)
+ find rate of change (percentage of return ) on monthly timeframe of list of particular years.
+ ## [FeaturesMLAnalystics](https://github.com/technqvi/FinQuant/tree/master/FeaturesMLAnalystics)
  - explore data to create feature engineerin  with technical indicator of stock  to find relationship these features.
  - write AFL scriop on [Amibroker software](https://www.amibroker.com/) to generate trading signal logic with serveral  technical indicators  like RSI.
  
