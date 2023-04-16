@@ -4,8 +4,9 @@
 Run each cell 
 * Some files need csv file to run , you can  use sample file attached on this project to test run
 
-## [Tutorial on GitHub](https://github.com/technqvi/MyYoutube-Demo)
-## [Tutorial on Youtube](https://www.youtube.com/playlist?list=PLIxgtZc_tZWOS9sHx9ModQ0ESX_nXkKM6)
+### Tutorial
+-[Tutorial on GitHub](https://github.com/technqvi/MyYoutube-Demo)
+-[Tutorial on Youtube](https://www.youtube.com/playlist?list=PLIxgtZc_tZWOS9sHx9ModQ0ESX_nXkKM6)
 
 
 
