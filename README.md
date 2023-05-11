@@ -45,6 +45,6 @@ Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investi
  ## [FeaturesMLAnalystics](https://github.com/technqvi/FinQuant/tree/master/FeaturesMLAnalystics)
  - explore data to create feature engineerin  with technical indicator of stock  to find relationship these features.
  - write AFL scriop on [Amibroker software](https://www.amibroker.com/) to generate trading signal logic with serveral  technical indicators  like RSI.'
- 
- ##  
+##  [TA-Ind](https://github.com/technqvi/FinQuant/tree/master/TA-Indy)
+create technical analysis indicator on pandas dataframe like Moving Average, EMA,MACD/Signal/RIS using [TA](https://technical-analysis-library-in-python.readthedocs.io/en/latest/)  powerd by  [GitHub Bukosabino](https://github.com/bukosabino/ta)
  
