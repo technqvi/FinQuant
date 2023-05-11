@@ -44,5 +44,7 @@ Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investi
  find rate of change (percentage of return ) on monthly timeframe of list of particular years.
  ## [FeaturesMLAnalystics](https://github.com/technqvi/FinQuant/tree/master/FeaturesMLAnalystics)
  - explore data to create feature engineerin  with technical indicator of stock  to find relationship these features.
- - write AFL scriop on [Amibroker software](https://www.amibroker.com/) to generate trading signal logic with serveral  technical indicators  like RSI.
+ - write AFL scriop on [Amibroker software](https://www.amibroker.com/) to generate trading signal logic with serveral  technical indicators  like RSI.'
+ 
+ ##  
  

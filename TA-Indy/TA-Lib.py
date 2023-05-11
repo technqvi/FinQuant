@@ -4,6 +4,9 @@ import ta.trend as ta_trend
 import ta.momentum as ta_mmt
 import ta.others as ta_other
 import ta 
+#https://pypi.org/project/ta/
+#https://github.com/bukosabino/ta
+#https://technical-analysis-library-in-python.readthedocs.io/en/latest/
 
 df=pd.read_csv('data/SPY-TALib-AB.csv',parse_dates=['Date/Time'],
                          index_col='Date/Time',dayfirst=True)
