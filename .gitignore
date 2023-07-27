@@ -2,8 +2,10 @@
 
 
 .ipynb_checkpoints
-.env
+/.ipynb_checkpoints
 
+.env
+*.cpython-39.pyc
 
 *png
 *.jpg
