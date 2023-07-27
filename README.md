@@ -2,9 +2,9 @@
 This repository contains several scripts involving analyzing fund performance like percentage of change  , rank of score that we will use to consider the investment strategy.
 ![image](https://github.com/technqvi/FinQuant/assets/38780060/f5431981-4ba6-4747-b860-fda733a8daa7)
 
-# Tutorial
-- [Python DataAnalytics For Fund Investment on Github](https://github.com/technqvi/MyYoutube-Demo)
-- [Python DataAnalytics For Fund Investment on Youtube](https://www.youtube.com/playlist?list=PLIxgtZc_tZWOS9sHx9ModQ0ESX_nXkKM6)
+# Tutorial :Python DataAnalytics For Fund Investment 
+- [Github](https://github.com/technqvi/MyYoutube-Demo)
+- [Youtube](https://www.youtube.com/playlist?list=PLIxgtZc_tZWOS9sHx9ModQ0ESX_nXkKM6)
 
 ## How to runt file for analytics
 * Check library imported on the first cell of each jupyter lab file  on python or anaconda enviroment
