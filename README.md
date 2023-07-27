@@ -2,26 +2,28 @@
 This repository contains several scripts involving analyzing fund performance like percentage of change  , rank of score that we will use to consider the investment strategy.
 ![image](https://github.com/technqvi/FinQuant/assets/38780060/f5431981-4ba6-4747-b860-fda733a8daa7)
 
+# Tutorial
+- [Python DataAnalytics For Fund Investment on Github](https://github.com/technqvi/MyYoutube-Demo)
+- [Python DataAnalytics For Fund Investment on Youtube](https://www.youtube.com/playlist?list=PLIxgtZc_tZWOS9sHx9ModQ0ESX_nXkKM6)
+
 ## How to runt file for analytics
 * Check library imported on the first cell of each jupyter lab file  on python or anaconda enviroment
 Run each cell 
 * Some files need csv file to run , you can  use sample file attached on this project to test run
 
-## Tutorial
-- [Python DataAnalytics For Fund Investment on Github](https://github.com/technqvi/MyYoutube-Demo)
-- [Python DataAnalytics For Fund Investment on Youtube](https://www.youtube.com/playlist?list=PLIxgtZc_tZWOS9sHx9ModQ0ESX_nXkKM6)
-
 # Main Section
+
+## [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
+To run any file in this project to get result , we can use a sample csv file.
 
 ## [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)
  This file demonstrates how to get price data such as  fund ,crypto, stock  from [https://finance.yahoo.com/](https://finance.yahoo.com/) using  [yfinance](https://pypi.org/project/yfinance/) as given period to find fund's return  and take them to plot bar chart by Plotly library to show fund  performance .
 
-## [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb) (New Version)
-## [AssetV1-Full-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV1-Full-ComparePerf.ipynb") (Old verion)
+## [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb) (New Version) | [AssetV1-Full-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV1-Full-ComparePerf.ipynb") (Old verion)
 This file shows you how to compare the percentage of fund's return and take it to calculate rank to score the fund on particular period.
 
 ## [TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
-Click link to look at detail
+Simulate buy/sell as spefic period to find percentage ofClick link detail
 
 ## [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
 This folder contain common library used on  [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)  and  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb)
