@@ -1,6 +1,6 @@
 # About
 This repository contains several scripts involving analyzing fund performance like percentage of change  , rank of score  , price movement range during given priod and buy/sell simulationto calcalute percent return of funds that we take these to consider the investment strategy and take action.
-![image](https://github.com/technqvi/FinQuant/assets/38780060/f5431981-4ba6-4747-b860-fda733a8daa7)
+![overview](https://github.com/technqvi/FinQuant/assets/38780060/72e29a90-f674-4481-9265-1bdb8f94233a)
 
 # Tutorial :Python DataAnalytics For Fund Investment 
 - [Github](https://github.com/technqvi/MyYoutube-Demo)
@@ -25,8 +25,8 @@ Simulate buy/sell on spefic period to find percentage of Click link detail
 Calculate score based on the 3 following criteria to select fund to invest on given period.
 * 1.Percentage of fund performance return 
 * 2.Rank ( calculated from Percentage of fund performance return)
-* 3.Fund Outperperformed average
-* Combine return +  rank + outperperformed average flag  to calculate score these funds to find which fund to invest.
+* 3.Fund Outperperformed average as flag
+* Put it all together (1-3 criteria) to calculate score these funds to find which fund to invest.
 
 
 
