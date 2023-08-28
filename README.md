@@ -1,5 +1,5 @@
 # About
-This repository contains several scripts involving analyzing fund performance like percentage of change  , rank of score  , price movement range during given priod and buy/sell simulationto calcalute percent return of funds that we take these to consider the investment strategy and take action.
+This repository contains several scripts involving analyzing fund performance like percentage of change  , rank of score and outperforming average return , price range movement, price distribution during given the priod and buy/sell simulation to calcalute percent return of funds that we take these to consider the investment 
 ![overview](https://github.com/technqvi/FinQuant/assets/38780060/72e29a90-f674-4481-9265-1bdb8f94233a)
 
 # Tutorial :Python DataAnalytics For Fund Investment 
@@ -13,13 +13,6 @@ This repository contains several scripts involving analyzing fund performance li
 ## [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
 To run any file in this project to get result , we can use a sample csv file as input.
 
-## [Buy/Sell Trading Simulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
-Simulate buy/sell on spefic period to find percentage of Click link detail
-
-
-
-## [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)
- This file demonstrates how to get price data such as  fund ,crypto, stock  from [https://finance.yahoo.com/](https://finance.yahoo.com/) using  [yfinance](https://pypi.org/project/yfinance/) as given period to find fund's return  and take them to plot bar chart by Plotly library to show fund  performance .
 
 ## [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb) 
 Calculate score based on the 3 following criteria to select fund to invest on given period.
@@ -28,15 +21,16 @@ Calculate score based on the 3 following criteria to select fund to invest on gi
 * 3.Fund Outperperformed average as flag
 * Put it all together (1-3 criteria) to calculate score these funds to find which fund to invest.
 
-
+## [Buy/Sell Trading Simulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
+Simulate buy/sell on spefic period to find percentage of Click link detail
 
 
 ## [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
 This folder contain common library used on  [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)  and  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb)
 
-## [CountTrendByLookingBackOnIndy.ipynb](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
-- Count consecutive bars of price or technical indicator to identify price movement direction such as up or down. 
-- Use Histogram to show the distribution of how many continue bars of uptrend and downtrend fall into ranges.
+## [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)
+ This file demonstrates how to get price data such as  fund ,crypto, stock  from [https://finance.yahoo.com/](https://finance.yahoo.com/) using  [yfinance](https://pypi.org/project/yfinance/) as given period to find fund's return  and take them to plot bar chart by Plotly library to show fund  performance .
+
 
 ## [Any_To_AB.ipynb](https://github.com/technqvi/FinQuant/blob/master/Any_To_AB.ipynb)
 Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investing.com](https://www.investing.com/).  For investing.com , you can download historical data as the following steps
@@ -46,6 +40,12 @@ Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investi
  This outcome is used for import to [AMibroker](https://www.amibroker.com/)
 
  # Additional Section
+
+
+## [CountTrendByLookingBackOnIndy.ipynb](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
+- Count consecutive bars of price or technical indicator to identify price movement direction such as up or down. 
+- Use Histogram to show the distribution of how many continue bars of uptrend and downtrend fall into ranges.
+
 
 
 ## [FindCorrelation.ipynb](https://github.com/technqvi/FinQuant/blob/master/FindCorrelation.ipynb)
