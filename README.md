@@ -22,7 +22,12 @@ Simulate buy/sell on spefic period to find percentage of Click link detail
  This file demonstrates how to get price data such as  fund ,crypto, stock  from [https://finance.yahoo.com/](https://finance.yahoo.com/) using  [yfinance](https://pypi.org/project/yfinance/) as given period to find fund's return  and take them to plot bar chart by Plotly library to show fund  performance .
 
 ## [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb) (New Version) | [AssetV1-Full-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV1-Full-ComparePerf.ipynb") (Old verion)
-This file shows you how to compare the percentage of fund's return and take it to calculate rank to score the fund on particular period.
+Calculate score based on the 3 following criteria to select fund to invest on given period.
+* 1.Percentage of fund performance return 
+* 2.Rank ( calculated from Percentage of fund performance return)
+* 3.Fund Outperperformed average
+* Combine return +  rank + outperperformed average flag  to calculate score these funds to find which fund to invest.
+
 
 
 
