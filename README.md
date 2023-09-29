@@ -7,12 +7,15 @@ This repository contains several scripts involving analyzing fund performance li
 - [Youtube](https://www.youtube.com/playlist?list=PLIxgtZc_tZWOS9sHx9ModQ0ESX_nXkKM6)
 
 
-
 # Main Section
+
+## [etf-funds_performance_analystics_v3.ipynb](https://github.com/technqvi/FinQuant/blob/master/etf-funds_performance_analystics_v3.ipynb)
+* This is latest version to get close price of etf funds to find the best fund performance  by combining score both percentage of return and rank
+* Almost all of the code is similar to [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb).
+
 
 ## [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
 To run any file in this project to get result , we can use a sample csv file as input.
-
 
 ## [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb) 
 Calculate score based on the 3 following criteria to select fund to invest on given period.
