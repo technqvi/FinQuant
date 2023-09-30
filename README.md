@@ -1,5 +1,7 @@
 # About
-This repository contains several scripts regarding how to use ETF-Fund data like close price or even technical analysis indicators to perform data analytics statistically using various approaches like percentage of change, rank of the score, and outperforming average return and buy/sell simulation to calculate percent return of funds that we take these to consider the investment.
+* This repository contains several scripts regarding how to use ETF-Fund data like close price or even technical analysis indicators to perform data analytics statistically.
+* We use  various approaches such as percentage of change, rank of the score, and outperforming average return and buy/sell simulation to calculate percent return of funds.
+
  
 ![overview](https://github.com/technqvi/FinQuant/assets/38780060/72e29a90-f674-4481-9265-1bdb8f94233a)
 
