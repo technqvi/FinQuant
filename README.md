@@ -1,5 +1,5 @@
 # About
-This repository contains several scripts involving analyzing fund performance like percentage of change  , rank of score and outperforming average return , price range movement, price distribution during given the priod and buy/sell simulation to calcalute percent return of funds that we take these to consider the investment 
+This repository contains several scripts regarding how to use ETF-Fund data like close price or even technical analysis indicators to perform data analytics statistically using variouse approached like percentage of change , rank of score and outperforming average return  and buy/sell simulation to calcalute percent return of funds that we take these to consider the investment. 
 ![overview](https://github.com/technqvi/FinQuant/assets/38780060/72e29a90-f674-4481-9265-1bdb8f94233a)
 
 # Tutorial :Python DataAnalytics For Fund Investment 
