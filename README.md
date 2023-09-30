@@ -18,7 +18,7 @@
 * Calculate score based on the 2 following criteria to select fund to invest on given period.
   * 1.Percentage of fund performance return 
   * 2.Rank ( calculated from Percentage of fund performance return)
- Put it all together (both conditions) to average score of these funds to find which fund to invest.
+* Put them all together (both conditions) to average score of these funds to find which fund to invest.
 
 
 ## [funds_buysell_perf_analystics.ipynb.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buysell_perf_analystics.ipynb.ipynb) 
@@ -28,7 +28,7 @@
   * 1.Percentage of fund performance return 
   * 2.Rank ( calculated from Percentage of fund performance return)
   * 3.Fund Outperperformed average as flag
-Put it all together (1-3 criteria) to average score of these funds to find which fund to invest.
+* Put them all together (1-3 criteria) to average score of these funds to find which fund to invest.
 
 
 ## [Buy/Sell Trading Simulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
