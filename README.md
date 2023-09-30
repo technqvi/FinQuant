@@ -9,20 +9,23 @@ This repository contains several scripts involving analyzing fund performance li
 
 # Main Section
 
-## [etf-funds_performance_analystics_v3.ipynb](https://github.com/technqvi/FinQuant/blob/master/etf-funds_performance_analystics_v3.ipynb)
-* Invest in ETF Fund with Buy Hold Strategy, We buy on the first day of the starting month and apply the pct_change function on the dataframe  to find the percent return of close price month on month  whereby  performing the rolling  calculation til the ending month as the given period
-* This is the latest version to get the close price of ETF funds to find the best fund performance  by combining score both percentage of return and ranking
-* Simplify code to be more understandable with another approach more efficiently but get the same purpose as  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb) except visualization and it takes how to use Outperperformed average out of criteria to calculate. 
+## [funds_buyhold_perf_analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_perf_analystics.ipynb)
+* It is to invest in ETF Fund with Buy Hold Strategy.
+* We buy on the first day of the starting month and apply the pct_change function on the dataframe  to find the percent return of close price month on month  whereby  performing the rolling  calculation til the ending month as the given period.
+* Calculate score based on the 2 following criteria to select fund to invest on given period.
+  * 1.Percentage of fund performance return 
+  * 2.Rank ( calculated from Percentage of fund performance return)
+ Put it all together (both conditions) to average score of these funds to find which fund to invest.
 
 
-## [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb) 
+## [funds_buysell_perf_analystics.ipynb.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buysell_perf_analystics.ipynb.ipynb) 
 * It is to invest in ETF Fund wih Buy&Sell on given TimeFrame.
 * We buy on the first trading day of the month and sell all on the last trading day of the month and calculate the percentage of close price between both for each month.
 * Calculate score based on the 3 following criteria to select fund to invest on given period.
   * 1.Percentage of fund performance return 
   * 2.Rank ( calculated from Percentage of fund performance return)
   * 3.Fund Outperperformed average as flag
-  * Put it all together (1-3 criteria) to calculate score these funds to find which fund to invest.
+Put it all together (1-3 criteria) to average score of these funds to find which fund to invest.
 
 
 ## [Buy/Sell Trading Simulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
@@ -30,10 +33,8 @@ Simulate buy/sell on spefic period to find percentage of Click link detail
 .
 
 
-
-
 ## [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
-To run any file in this project to get result , we can use a sample csv file as input
+Sample csv file as input.
 
 
 ## Additional Section
