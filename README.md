@@ -32,7 +32,7 @@
 
 
 ## [Buy/Sell Trading Simulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
-Simulate buy/sell on spefic period to find percentage of Click link detail
+Simulate buy/sell transaction corresponding to trading action plan on spefic period to find percentage of fund performance retrun. Click link detail
 .
 
 
