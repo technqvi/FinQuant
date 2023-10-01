@@ -32,8 +32,7 @@
 
 
 ## [Buy/Sell Trading Simulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
-Simulate buy/sell transaction corresponding to trading action plan on spefic period to find percentage of fund performance retrun. Click link detail
-.
+Simulate buy/sell transactions aligned with the trading action plan on a specific period to find the percentage of fund performance return. Click the link detail.
 
 
 ## [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
