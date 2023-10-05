@@ -1,19 +1,21 @@
 
 # 5 Financial & Quantitative Project 
+
 ## [FinQuant ](https://github.com/technqvi/FinQuant)
-## []
-
-
-# FinQuant 
-* This is the main repository contains several scripts regarding how to use ETF-Fund data like close price or even technical analysis indicators to perform data analytics statistically.
-* We use  various approaches such as percentage of change, rank of the score, and outperforming average return and buy/sell simulation to calculate percent return of funds.
-
- 
-![overview](https://github.com/technqvi/FinQuant/assets/38780060/72e29a90-f674-4481-9265-1bdb8f94233a)
+## [AssetPriceFeeding](https://github.com/technqvi/FinQuant/tree/master/AssetPriceFeeding)
+## [BinanceTranReport](https://github.com/technqvi/FinQuant/tree/master/BinanceTranReport)
+## [AlertPriceInRange](https://github.com/technqvi/FinQuant/tree/master/AlertPriceInRange)
+## [TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
 
 # Tutorial :Python DataAnalytics For Fund Investment 
 - [Github](https://github.com/technqvi/MyYoutube-Demo)
 - [Youtube](https://www.youtube.com/playlist?list=PLIxgtZc_tZWOS9sHx9ModQ0ESX_nXkKM6)
+
+## About FinQuant 
+* This is the main repository contains several scripts regarding how to use ETF-Fund data like close price or even technical analysis indicators to perform data analytics statistically.
+* We use  various approaches such as percentage of change, rank of the score, and outperforming average return and buy/sell simulation to calculate percent return of funds.
+
+ ![overview](https://github.com/technqvi/FinQuant/assets/38780060/72e29a90-f674-4481-9265-1bdb8f94233a)
 
 
 # Main Section
