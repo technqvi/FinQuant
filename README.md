@@ -1,5 +1,11 @@
-# About
-* This repository contains several scripts regarding how to use ETF-Fund data like close price or even technical analysis indicators to perform data analytics statistically.
+
+# 5 Financial & Quantitative Project 
+## [FinQuant ](https://github.com/technqvi/FinQuant)
+## []
+
+
+# FinQuant 
+* This is the main repository contains several scripts regarding how to use ETF-Fund data like close price or even technical analysis indicators to perform data analytics statistically.
 * We use  various approaches such as percentage of change, rank of the score, and outperforming average return and buy/sell simulation to calculate percent return of funds.
 
  
@@ -30,9 +36,11 @@
   * 3.Fund Outperperformed average as flag
 * Put them all together (1-3 criteria) to average score of these funds to find which fund to invest.
 
+### [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)
+ This file demonstrates how to get price data such as  fund ,crypto, stock  from [https://finance.yahoo.com/](https://finance.yahoo.com/) using  [yfinance](https://pypi.org/project/yfinance/) as given period to find fund's return  and take them to plot bar chart by Plotly library to show fund  performance .
 
-## [Buy/Sell Trading Simulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
-Simulate buy/sell transactions aligned with the trading action plan on a specific period to find the percentage of fund performance return. Click the link detail.
+ ### [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
+This folder contain common library used on  [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)  and  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb)
 
 
 ## [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
@@ -42,10 +50,6 @@ Sample csv file as input.
 ## Additional Section
 
 
-### [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)
- This file demonstrates how to get price data such as  fund ,crypto, stock  from [https://finance.yahoo.com/](https://finance.yahoo.com/) using  [yfinance](https://pypi.org/project/yfinance/) as given period to find fund's return  and take them to plot bar chart by Plotly library to show fund  performance .
-
-
 ### [Any_To_AB.ipynb](https://github.com/technqvi/FinQuant/blob/master/Any_To_AB.ipynb)
 Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investing.com](https://www.investing.com/).  For investing.com , you can download historical data as the following steps
  - go to symbol   ex. https://www.investing.com/indices/nq-100-futures-chart
@@ -53,16 +57,9 @@ Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investi
  - download data
  This outcome is used for import to [AMibroker](https://www.amibroker.com/)
 
-
-### [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
-This folder contain common library used on  [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)  and  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb)
-
-
 ### [CountTrendByLookingBackOnIndy.ipynb](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
 - Count consecutive bars of price or technical indicator to identify price movement direction such as up or down. 
 - Use Histogram to show the distribution of how many continue bars of uptrend and downtrend fall into ranges.
-
-
 
 ### [FindCorrelation.ipynb](https://github.com/technqvi/FinQuant/blob/master/FindCorrelation.ipynb)
 How to find a correlation of a linear relationship between several funds to find which fund has high/low relation to making a decision on diversification of your investment.
@@ -70,10 +67,8 @@ How to find a correlation of a linear relationship between several funds to find
 Find the distribution of  technical indicators of Asset  by using Histogram like MACD,RSI and summarize the set of data values to describe statistical methods like minimum, first quartile, median, third quartile, and maximum by Box-plot.
 
 ### [Asset-RangeDist-PriceVol.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-RangeDist-PriceVol.ipynb)
-Find percentage of High, Low , Middle price to  trading range of given period such 10 days,25 days.
-
-
-
+* Find percentage of Middle price  calculated by (High+Low)/2 of the last n periods  of trading range of given period such 10 days,25 days.
+* [Donchian channel](https://en.wikipedia.org/wiki/Donchian_channel)
 
  ### [Find ROC Month](https://github.com/technqvi/FinQuant/tree/master/ROCMonth)
  find rate of change (percentage of return ) on monthly timeframe of list of particular years.
@@ -86,6 +81,3 @@ create technical analysis indicator on pandas dataframe like Moving Average, EMA
 ### [PythonToAB](https://github.com/technqvi/FinQuant/tree/master/PythonToAB)
 Use python to get data from Amibroker to do something.
 
-### [fin_date](https://github.com/technqvi/FinQuant/tree/master/fin_data)
-There are several csv files used as inpurt to run jupyter file for  analytics report.
- 

@@ -1,0 +1,19 @@
+CREATE TABLE "hist_trade" (
+	"datetimeUTC"	TEXT,
+	"symbol_pair"	TEXT,
+	"symbol"	TEXT,
+	"pair"	TEXT,
+	"type"	TEXT,
+	"price"	REAL,
+	"qty"	REAL,
+	"total"	REAL,
+	"commission"	REAL,
+	"commissionAsset"	TEXT
+);
+
+
+CREATE TABLE "symbol_info" (
+	"symbol"	TEXT,
+	"pair"	TEXT,
+	"isActive"	INTEGER
+);

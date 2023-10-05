@@ -1,0 +1,59 @@
+<class 'pyspark.pandas.frame.DataFrame'>
+Int64Index: 10 entries, 2 to 5
+Data columns (total 7 columns):
+ #   Column        Non-Null Count  Dtype         
+---  ------        --------------  -----         
+ 0   symbol        10 non-null     object        
+ 1   type          10 non-null     object        
+ 2   qty           10 non-null     float64       
+ 3   total         10 non-null     float64       
+ 4   avg_price     10 non-null     float64       
+ 5   report_date   10 non-null     datetime64[ns]
+ 6   created_date  10 non-null     datetime64[ns]
+
+bn_summary
+
+[
+  {
+    "name": "symbol",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "type",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "qty",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "total",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "avg_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "report_date",
+    "mode": "REQUIRED",
+    "type": "TIMESTAMP",
+    "fields": []
+  },
+  {
+    "name": "created_date",
+    "mode": "REQUIRED",
+    "type": "TIMESTAMP",
+    "fields": []
+  }
+]

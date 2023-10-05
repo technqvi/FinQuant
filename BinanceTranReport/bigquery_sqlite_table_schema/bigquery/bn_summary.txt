@@ -1,0 +1,48 @@
+bn_bs_summary 
+cluster=symbol
+partitoin=report_date
+
+[
+  {
+    "name": "symbol",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "type",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "qty",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "total",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "avg_price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "report_date",
+    "mode": "REQUIRED",
+    "type": "DATE",
+    "fields": []
+  },
+  {
+    "name": "created_date",
+    "mode": "REQUIRED",
+    "type": "TIMESTAMP",
+    "fields": []
+  }
+]

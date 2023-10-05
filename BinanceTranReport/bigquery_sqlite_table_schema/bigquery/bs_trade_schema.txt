@@ -1,0 +1,67 @@
+{prodject}.{dataset}.bn_hist_trade
+table name=bn_hist_trade
+partition =datetimeUTC as day
+cluster=symbol_pair,type
+
+[
+  {
+    "name": "datetimeUTC",
+    "mode": "NULLABLE",
+    "type": "DATETIME",
+    "fields": []
+  },
+  {
+    "name": "symbol_pair",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "symbol",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "pair",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "type",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  },
+  {
+    "name": "price",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "qty",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "total",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "commission",
+    "mode": "NULLABLE",
+    "type": "FLOAT",
+    "fields": []
+  },
+  {
+    "name": "commissionAsset",
+    "mode": "NULLABLE",
+    "type": "STRING",
+    "fields": []
+  }
+]
