@@ -41,16 +41,14 @@
 ### [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)
  This file demonstrates how to get price data such as  fund ,crypto, stock  from [https://finance.yahoo.com/](https://finance.yahoo.com/) using  [yfinance](https://pypi.org/project/yfinance/) as given period to find fund's return  and take them to plot bar chart by Plotly library to show fund  performance .
 
- ### [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
+### [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
 This folder contain common library used on  [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)  and  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb)
 
-
-## [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
+### [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
 Sample csv file as input.
 
 
 ## Additional Section
-
 
 #### [Any_To_AB.ipynb](https://github.com/technqvi/FinQuant/blob/master/Any_To_AB.ipynb)
 Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investing.com](https://www.investing.com/).  For investing.com , you can download historical data as the following steps
@@ -72,9 +70,9 @@ Find the distribution of  technical indicators of Asset  by using Histogram like
 * Find percentage of Middle price  calculated by (High+Low)/2 of the last n periods  of trading range of given period such 10 days,25 days.
 * [Donchian channel](https://en.wikipedia.org/wiki/Donchian_channel)
 
- ### [Find ROC Month](https://github.com/technqvi/FinQuant/tree/master/ROCMonth)
+ #### [Find ROC Month](https://github.com/technqvi/FinQuant/tree/master/ROCMonth)
  find rate of change (percentage of return ) on monthly timeframe of list of particular years.
- ### [FeaturesMLAnalystics](https://github.com/technqvi/FinQuant/tree/master/FeaturesMLAnalystics)
+ #### [FeaturesMLAnalystics](https://github.com/technqvi/FinQuant/tree/master/FeaturesMLAnalystics)
  - explore data to create feature engineerin  with technical indicator of stock  to find relationship these features.
  - write AFL scriop on [Amibroker software](https://www.amibroker.com/) to generate trading signal logic with serveral  technical indicators  like RSI.'
 
