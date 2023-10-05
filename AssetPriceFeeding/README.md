@@ -1,7 +1,7 @@
 
 # About
 This repositoy involved in feeding price data from a variety of financial sources , such as Fund, Stock , Index and Crypto.
-![image](https://github.com/technqvi/AssetPriceFeeding/assets/38780060/7275f960-4c72-4275-916b-e1091671a702)
+![overview](https://github.com/technqvi/FinQuant/assets/38780060/0227d723-b819-4173-bf20-ac30c117ac84)
 
 ## [cryptos_api_to_file.ipynb](https://github.com/technqvi/AssetPriceFeeding/blob/master/cryptos_api_to_file.ipynb) |  [cryptos_api_to_file.py](https://github.com/technqvi/AssetPriceFeeding/blob/master/cryptos_api_to_file.py)
 * Retrive crypto price from Binance and Crytocompare by passing symbol stored in SQLite database as parameter in order to invoke API function.
