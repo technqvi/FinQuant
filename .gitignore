@@ -11,8 +11,8 @@
 .env
 *.cpython-39.pyc
 *.lnk
-*png
-*.jpg
+*.png
+
 *.xml
 *.csv
 *.xlsx
