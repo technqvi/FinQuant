@@ -9,7 +9,7 @@ This project involved the price range notification of stocks downloaded from Bin
 
 ## Script Section
 The figure below to describe simply how to setup and configure stock name and range definition on the database.
-<img width="763" alt="define-range" src="https://github.com/technqvi/AlertPriceInRange/assets/38780060/46cdc6d0-debf-4f83-8ff5-bb3d5d7925f6">
+<img width="763" alt="asset_price_range" src="https://github.com/technqvi/FinQuant/assets/38780060/415498ec-8777-4a26-a7bc-d959b457ed98">
 
 ## [price_range_notification.ipynb)](https://github.com/technqvi/AlertPriceInRange/blob/master/price_range_notification.ipynb) | [price_range_notification.py](https://github.com/technqvi/AlertPriceInRange/blob/master/price_range_notification.py)
 * Load symbol name and range list from database.
