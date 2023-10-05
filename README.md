@@ -52,23 +52,23 @@ Sample csv file as input.
 ## Additional Section
 
 
-### [Any_To_AB.ipynb](https://github.com/technqvi/FinQuant/blob/master/Any_To_AB.ipynb)
+#### [Any_To_AB.ipynb](https://github.com/technqvi/FinQuant/blob/master/Any_To_AB.ipynb)
 Format csv file imported from [Efinance-Thai](www.efinancethai.com) and [Investing.com](https://www.investing.com/).  For investing.com , you can download historical data as the following steps
  - go to symbol   ex. https://www.investing.com/indices/nq-100-futures-chart
  - click General Tab => Historical Data   https://www.investing.com/indices/nq-100-futures-historical-data
  - download data
  This outcome is used for import to [AMibroker](https://www.amibroker.com/)
 
-### [CountTrendByLookingBackOnIndy.ipynb](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
+#### [CountTrendByLookingBackOnIndy.ipynb](https://github.com/technqvi/FinQuant/blob/master/CountTrendByLookingBackOnIndy.ipynb)
 - Count consecutive bars of price or technical indicator to identify price movement direction such as up or down. 
 - Use Histogram to show the distribution of how many continue bars of uptrend and downtrend fall into ranges.
 
-### [FindCorrelation.ipynb](https://github.com/technqvi/FinQuant/blob/master/FindCorrelation.ipynb)
+#### [FindCorrelation.ipynb](https://github.com/technqvi/FinQuant/blob/master/FindCorrelation.ipynb)
 How to find a correlation of a linear relationship between several funds to find which fund has high/low relation to making a decision on diversification of your investment.
-### [Asset-Indy-Analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-Indy-Analystics.ipynb) 
+#### [Asset-Indy-Analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-Indy-Analystics.ipynb) 
 Find the distribution of  technical indicators of Asset  by using Histogram like MACD,RSI and summarize the set of data values to describe statistical methods like minimum, first quartile, median, third quartile, and maximum by Box-plot.
 
-### [Asset-RangeDist-PriceVol.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-RangeDist-PriceVol.ipynb)
+#### [Asset-RangeDist-PriceVol.ipynb](https://github.com/technqvi/FinQuant/blob/master/Asset-RangeDist-PriceVol.ipynb)
 * Find percentage of Middle price  calculated by (High+Low)/2 of the last n periods  of trading range of given period such 10 days,25 days.
 * [Donchian channel](https://en.wikipedia.org/wiki/Donchian_channel)
 
@@ -77,9 +77,4 @@ Find the distribution of  technical indicators of Asset  by using Histogram like
  ### [FeaturesMLAnalystics](https://github.com/technqvi/FinQuant/tree/master/FeaturesMLAnalystics)
  - explore data to create feature engineerin  with technical indicator of stock  to find relationship these features.
  - write AFL scriop on [Amibroker software](https://www.amibroker.com/) to generate trading signal logic with serveral  technical indicators  like RSI.'
-###  [TA-Ind](https://github.com/technqvi/FinQuant/tree/master/TA-Indy)
-create technical analysis indicator on pandas dataframe like Moving Average, EMA,MACD/Signal/RIS using [TA](https://technical-analysis-library-in-python.readthedocs.io/en/latest/)  powerd by  [GitHub Bukosabino](https://github.com/bukosabino/ta)
-
-### [PythonToAB](https://github.com/technqvi/FinQuant/tree/master/PythonToAB)
-Use python to get data from Amibroker to do something.
 
