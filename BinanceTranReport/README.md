@@ -1,5 +1,9 @@
 # About
 This is a project involving using Binance API to retrive trading transaction to do further analytics. There are 2 approaches to implement , Both are same things but run on differnt enviroment  as figure below
+
+![overview](https://github.com/technqvi/FinQuant/assets/38780060/676042d7-e225-4a54-9b21-a34ac06ee10b)
+
+
 #### On Google Cloud with Analystics Services
 1. Cloud Function get trading transaction from Binance using [python-biance](https://pypi.org/project/python-binance/)
 2. Load transaction data into BigQuery.
