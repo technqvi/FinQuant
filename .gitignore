@@ -7,7 +7,7 @@
 /.idea
 .__pycache__
 
-
+.properties
 .env
 *.cpython-39.pyc
 *.lnk
@@ -17,7 +17,5 @@
 *.csv
 *.xlsx
 
-funds_buyhold_perf_analystics.ipynb
-funds_buysell_perf_analystics.ipynb
-TopAssetROC.ipynb
+
 
