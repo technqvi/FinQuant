@@ -1,8 +1,8 @@
 # About
-It is an experimental project involving  streaming crypto prices from Binance.com and other Market Data API around the world to Google Cloud Platform to do something further using a wide range of Google Analytics services as below  
+It is an experimental project involving  streaming crypto prices from Binance.com and other Market Data API around the world to Google Cloud Platform to do something further using a wide range of Google Analytics services as below.  
 * Pub/Sub  and Pub/Sub lite
 * Data Proc ( Structure streaming  by Apache Spark) 
 * BigQuery Storage API (New API for streaming data to BigQuery without DataFlow)
 * Bigtable
 * Google Cloud Storage.
-It is undergoing implementation.
+# It is undergoing implementation.
