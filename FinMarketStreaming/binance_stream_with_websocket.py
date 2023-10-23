@@ -3,8 +3,10 @@ import websocket
 import datetime
 #https://medium.com/mlearning-ai/how-to-get-live-crypto-data-from-binance-7a5e5ec10de4
 # https://binance-docs.github.io/apidocs/spot/en/#websocket-market-streams
-def ws_trades(): 
-    socket = f'wss://stream.binance.com:9443/ws/ethbusd@trade'
+
+
+def ws_trades(symbol='ethbusd'): 
+    socket = f'wss://stream.binance.com:9443/ws/{symbol}@trade'
 
     def on_message(wsapp,message):  
         json_message = json.loads(message)
