@@ -1,16 +1,13 @@
 
 # Plenty of Financial & Quantitative Projects 
 Click link below to see more detail.
-### [FinQuant ](https://github.com/technqvi/FinQuant)
-| ### [SET-API_TradeData](https://github.com/technqvi/FinQuant/tree/master/SET-API_TradeData)  | ### [AssetPriceFeeding](https://github.com/technqvi/FinQuant/tree/master/AssetPriceFeeding)     | ### [BinanceTranReport](https://github.com/technqvi/FinQuant/tree/master/BinanceTranReport)       |
-| ### [AlertPriceInRange](https://github.com/technqvi/FinQuant/tree/master/AlertPriceInRange)  | ### [TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)         | ### [FinMarketStreaming](https://github.com/technqvi/FinQuant/tree/master/FinMarketStreaming)     |
-
-
-
-
-
-
-
+### [FinQuant](https://github.com/technqvi/FinQuant)
+### [AssetPriceFeeding](https://github.com/technqvi/FinQuant/tree/master/AssetPriceFeeding)
+### [BinanceTranReport](https://github.com/technqvi/FinQuant/tree/master/BinanceTranReport)
+### [AlertPriceInRange](https://github.com/technqvi/FinQuant/tree/master/AlertPriceInRange)
+### [TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
+### [FinMarketStreaming](https://github.com/technqvi/FinQuant/tree/master/FinMarketStreaming)
+### [SET-API_TradeData](https://github.com/technqvi/FinQuant/tree/master/SET-API_TradeData)
 
 # Tutorial :Python DataAnalytics For Fund Investment 
 - [Github](https://github.com/technqvi/MyYoutube-Demo)
