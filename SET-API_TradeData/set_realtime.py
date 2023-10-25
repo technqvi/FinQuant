@@ -18,13 +18,16 @@ configParser = configparser.RawConfigParser()
 configFilePath = 'user-info.properties'
 configParser.read(configFilePath)
 
-app_id = configParser.get('STT-OPENAPI-AUTH', 'app-id')
-app_secret = configParser.get('STT-OPENAPI-AUTH', 'app-secret')
-app_code = configParser.get('STT-OPENAPI-AUTH', 'app-code-sandbox')
-broker_id = configParser.get('STT-OPENAPI-AUTH', 'broker-id-sandbox')
+app_id = configParser.get('STT-OPENAPI-AUTH', 'app-id-caf')
+app_secret = configParser.get('STT-OPENAPI-AUTH', 'app-secret-caf')
+app_code = configParser.get('STT-OPENAPI-AUTH', 'app-code-caf')
+broker_id = configParser.get('STT-OPENAPI-AUTH', 'broker-id-caf')
 is_auto_queue = False
 
-
+# print(app_id)
+# print(app_secret)
+# print(app_code)
+# print(broker_id)
 # In[ ]:
 
 
