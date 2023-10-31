@@ -5,4 +5,5 @@ It is an experimental project involving  streaming crypto prices from Binance.co
 * BigQuery Storage API (New API for streaming data to BigQuery without DataFlow)
 * Bigtable
 * Google Cloud Storage.
+ ![image](https://github.com/technqvi/FinQuant/assets/38780060/c9680d59-f1aa-47c8-99cc-974aacd56a89)
 # It is undergoing implementation.

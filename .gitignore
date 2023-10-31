@@ -7,7 +7,7 @@
 /.idea
 .__pycache__
 
-
+*.bat
 *.properties
 .env
 *.cpython-39.pyc
