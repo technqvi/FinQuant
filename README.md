@@ -6,8 +6,8 @@ Click link below to see more detail.
 * It is to invest in ETF Fund with Buy Hold Strategy.
 * We buy on the first day of the starting month and apply the percentage of change and standard deviation function on the dataframe  whereby  performing the rolling calculation as the given period.
 * Calculate score based on the 2 following criteria to select fund to invest on given period (Weekly,Monthly,Yearly) and total period(Start-To-End).
-  * 1.Percentage of return  and its rank (Higher total score , greater performance)
-  * 2.Standard deviation and its rank ( Higher total score , worse perfromance)
+  1.Percentage of return  and its rank (Higher total score , greater performance)
+  2.Standard deviation and its rank ( Higher total score , worse perfromance)
 * Put all of them to quantify total final score. to find which fund to invest.
 ## [AssetPriceFeeding](https://github.com/technqvi/FinQuant/tree/master/AssetPriceFeeding)
 ## [BinanceTranReport](https://github.com/technqvi/FinQuant/tree/master/BinanceTranReport)
