@@ -1,13 +1,20 @@
 
 # Plenty of Financial & Quantitative Projects 
 Click link below to see more detail.
-### [FinQuant](https://github.com/technqvi/FinQuant)
-### [AssetPriceFeeding](https://github.com/technqvi/FinQuant/tree/master/AssetPriceFeeding)
-### [BinanceTranReport](https://github.com/technqvi/FinQuant/tree/master/BinanceTranReport)
-### [AlertPriceInRange](https://github.com/technqvi/FinQuant/tree/master/AlertPriceInRange)
-### [TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
-### [FinMarketStreaming](https://github.com/technqvi/FinQuant/tree/master/FinMarketStreaming)
-### [SET-API_TradeData](https://github.com/technqvi/FinQuant/tree/master/SET-API_TradeData)
+## [FinQuant](https://github.com/technqvi/FinQuant)
+### [funds_buyhold_return_std__perf.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_return_std__perf.ipynb)
+* It is to invest in ETF Fund with Buy Hold Strategy.
+* We buy on the first day of the starting month and apply the percentage of change and standard deviation function on the dataframe  whereby  performing the rolling calculation as the given period.
+* Calculate score based on the 2 following criteria to select fund to invest on given period (Weekly,Monthly,Yearly) and total period(Start-To-End).
+  * 1.Percentage of return  and its rank (Higher total score , greater performance)
+  * 2.Standard deviation and its rank ( Higher total score , worse perfromance)
+* Put all of them to quantify total final score. to find which fund to invest.
+## [AssetPriceFeeding](https://github.com/technqvi/FinQuant/tree/master/AssetPriceFeeding)
+## [BinanceTranReport](https://github.com/technqvi/FinQuant/tree/master/BinanceTranReport)
+## [AlertPriceInRange](https://github.com/technqvi/FinQuant/tree/master/AlertPriceInRange)
+## [TradeSimulation](https://github.com/technqvi/FinQuant/tree/master/TradeSimulation)
+## [FinMarketStreaming](https://github.com/technqvi/FinQuant/tree/master/FinMarketStreaming)
+## [SET-API_TradeData](https://github.com/technqvi/FinQuant/tree/master/SET-API_TradeData)
 
 # Tutorial :Python DataAnalytics For Fund Investment 
 - [Github](https://github.com/technqvi/MyYoutube-Demo)
@@ -20,22 +27,6 @@ Click link below to see more detail.
  ![overview](https://github.com/technqvi/FinQuant/assets/38780060/72e29a90-f674-4481-9265-1bdb8f94233a)
 
 
-# Main Section
-
-# [funds_buyhold_return_std__perf.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_return_std__perf.ipynb)
-* It is to invest in ETF Fund with Buy Hold Strategy.
-* We buy on the first day of the starting month and apply the percentage of change and standard deviation function on the dataframe  whereby  performing the rolling calculation as the given period.
-* Calculate score based on the 2 following criteria to select fund to invest on given period (Weekly,Monthly,Yearly) and total period(Start-To-End).
-  * 1.Percentage of return  and its rank (Higher total score , greater performance)
-  * 2.Standard deviation and its rank ( Higher total score , worse perfromance)
-* Put all of them to quantify total final score. to find which fund to invest.
-
-
-### [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
-This folder contain common library used on  [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)  and  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb)
-
-### [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
-Sample csv file as input.
 
 
 ## Additional Section
@@ -87,3 +78,8 @@ Find the distribution of  technical indicators of Asset  by using Histogram like
  - explore data to create feature engineerin  with technical indicator of stock  to find relationship these features.
  - write AFL scriop on [Amibroker software](https://www.amibroker.com/) to generate trading signal logic with serveral  technical indicators  like RSI.'
 
+### [my_fin_common_libs](https://github.com/technqvi/FinQuant/tree/master/my_fin_common_libs)
+This folder contain common library used on  [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)  and  [AssetV2-Mini-ComparePerf.ipynb](https://github.com/technqvi/FinQuant/blob/master/AssetV2-Mini-ComparePerf.ipynb)
+
+### [World-Focus-16tNow.csv](https://github.com/technqvi/FinQuant/blob/master/World-Focus-16tNow.csv)
+Sample csv file as input.
