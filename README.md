@@ -31,6 +31,8 @@ Click link below to see more detail.
 
 ## Additional Section
 
+### [Demo-FinQuantLib](https://github.com/technqvi/FinQuant/tree/master/Demo-FinQuantLib)
+
 ### [funds_buyhold_perf_analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_perf_analystics.ipynb)
 * It is to invest in ETF Fund with Buy Hold Strategy.
 * We buy on the first day of the starting month and apply the pct_change function on the dataframe  to find the percent return of close price month on month  whereby  performing the rolling  calculation  as the given period.
