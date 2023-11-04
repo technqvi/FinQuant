@@ -2,13 +2,7 @@
 # Plenty of Financial & Quantitative Projects 
 Click link below to see more detail.
 ## [FinQuant](https://github.com/technqvi/FinQuant)
-### [funds_buyhold_return_std__perf.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_return_std__perf.ipynb)
-* It is to invest in ETF Fund with Buy Hold Strategy.
-* We buy on the first day of the starting month and apply the percentage of change and standard deviation function on the dataframe  whereby  performing the rolling calculation as the given period.
-* Calculate score based on the 2 following criteria to select fund to invest on given period (Weekly,Monthly,Yearly) and total period(Start-To-End).
-  * Percentage of return  and its rank (Higher total score , greater performance)
-  * Standard deviation and its rank ( Higher total score , worse perfromance)
-* Put all of them to quantify total final score. to find which fund to invest.
+
 ## [AssetPriceFeeding](https://github.com/technqvi/FinQuant/tree/master/AssetPriceFeeding)
 ## [BinanceTranReport](https://github.com/technqvi/FinQuant/tree/master/BinanceTranReport)
 ## [AlertPriceInRange](https://github.com/technqvi/FinQuant/tree/master/AlertPriceInRange)
@@ -26,20 +20,13 @@ Click link below to see more detail.
 
  ![overview](https://github.com/technqvi/FinQuant/assets/38780060/72e29a90-f674-4481-9265-1bdb8f94233a)
 
-
-
-
-## Additional Section
-
-### [Demo-FinQuantLib](https://github.com/technqvi/FinQuant/tree/master/Demo-FinQuantLib)
-
-### [funds_buyhold_perf_analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_perf_analystics.ipynb)
+### [funds_buyhold_return_std__perf.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_return_std__perf.ipynb)
 * It is to invest in ETF Fund with Buy Hold Strategy.
-* We buy on the first day of the starting month and apply the pct_change function on the dataframe  to find the percent return of close price month on month  whereby  performing the rolling  calculation  as the given period.
-* Calculate score based on the 2 following criteria to select fund to invest on given period.
-  * 1.Percentage of fund performance return 
-  * 2.Rank ( calculated from Percentage of fund performance return)
-* Put them all together (both conditions) to average score of these funds to find which fund to invest.
+* We buy on the first day of the starting month and apply the percentage of change and standard deviation function on the dataframe  whereby  performing the rolling calculation as the given period.
+* Calculate score based on the 2 following criteria to select fund to invest on given period (Weekly,Monthly,Yearly) and total period(Start-To-End).
+  * Percentage of return  and its rank (Higher total score , greater performance)
+  * Standard deviation and its rank ( Higher total score , worse perfromance)
+* Put all of them to quantify total final score. to find which fund to invest.
 
 
 ### [funds_buysell_perf_analystics.ipynb.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buysell_perf_analystics.ipynb.ipynb) 
@@ -50,6 +37,21 @@ Click link below to see more detail.
   * 2.Rank ( calculated from Percentage of fund performance return)
   * 3.Fund Outperperformed average as flag
 * Put them all together (1-3 criteria) to average score of these funds to find which fund to invest.
+
+
+## Additional Section
+
+### [Demo-FinQuantLib](https://github.com/technqvi/FinQuant/tree/master/Demo-FinQuantLib)
+
+
+### [funds_buyhold_perf_analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_perf_analystics.ipynb)
+* It is to invest in ETF Fund with Buy Hold Strategy.
+* We buy on the first day of the starting month and apply the pct_change function on the dataframe  to find the percent return of close price month on month  whereby  performing the rolling  calculation  as the given period.
+* Calculate score based on the 2 following criteria to select fund to invest on given period.
+  * 1.Percentage of fund performance return 
+  * 2.Rank ( calculated from Percentage of fund performance return)
+* Put them all together (both conditions) to average score of these funds to find which fund to invest.
+
 
 #### [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)
  This file demonstrates how to get price data such as  fund ,crypto, stock  from [https://finance.yahoo.com/](https://finance.yahoo.com/) using  [yfinance](https://pypi.org/project/yfinance/) as given period to find fund's return  and take them to plot bar chart by Plotly library to show fund  performance .
