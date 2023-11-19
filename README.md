@@ -28,6 +28,14 @@ Click link below to see more detail.
   * Standard deviation and its rank ( Higher total score , worse perfromance)
 * Put all of them to quantify total final score. to find which fund to invest.
 
+### [funds_buyhold_perf_analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_perf_analystics.ipynb)
+* It is to invest in ETF Fund with Buy Hold Strategy.
+* We buy on the first day of the starting month and apply the pct_change function on the dataframe  to find the percent return of close price month on month  whereby  performing the rolling  calculation  as the given period.
+* Calculate score based on the 2 following criteria to select fund to invest on given period.
+  * 1.Percentage of fund performance return 
+  * 2.Rank ( calculated from Percentage of fund performance return)
+* Put them all together (both conditions) to average score of these funds to find which fund to invest.
+
 
 ### [funds_buysell_perf_analystics.ipynb.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buysell_perf_analystics.ipynb.ipynb) 
 * It is to invest in ETF Fund wih Buy&Sell on given TimeFrame.
@@ -43,14 +51,6 @@ Click link below to see more detail.
 
 ### [Demo-FinQuantLib](https://github.com/technqvi/FinQuant/tree/master/Demo-FinQuantLib)
 
-
-### [funds_buyhold_perf_analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_perf_analystics.ipynb)
-* It is to invest in ETF Fund with Buy Hold Strategy.
-* We buy on the first day of the starting month and apply the pct_change function on the dataframe  to find the percent return of close price month on month  whereby  performing the rolling  calculation  as the given period.
-* Calculate score based on the 2 following criteria to select fund to invest on given period.
-  * 1.Percentage of fund performance return 
-  * 2.Rank ( calculated from Percentage of fund performance return)
-* Put them all together (both conditions) to average score of these funds to find which fund to invest.
 
 
 #### [TopAssetROC.ipynb](https://github.com/technqvi/FinQuant/blob/master/TopAssetROC.ipynb)
