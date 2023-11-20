@@ -37,7 +37,7 @@ Click link below to see more detail.
 * Put them all together (both conditions) to average score of these funds to find which fund to invest.
 
 
-### [funds_buysell_perf_analystics.ipynb.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buysell_perf_analystics.ipynb.ipynb) 
+### [funds_buysell_perf_analystics.ipynb.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buysell_perf_analystics.ipynb) 
 * It is to invest in ETF Fund wih Buy&Sell on given TimeFrame.
 * We buy on the first trading day of the month and sell all on the last trading day of the month and calculate the percentage of close price between both for each month.
 * Calculate score based on the 3 following criteria to select fund to invest on given period.
