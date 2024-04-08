@@ -25,7 +25,7 @@ Click link below to see more detail.
 * We buy on the first day of the starting month and apply the percentage of change and standard deviation function on the dataframe  whereby  performing the rolling calculation as the given period.
 * Calculate score based on the 2 following criteria to select fund to invest on given period (Weekly,Monthly,Yearly) and total period(Start-To-End).
   * Percentage of return  and its rank (Higher total score , greater performance)
-  * Standard deviation and its rank ( Higher total score , worse perfromance)
+  * Standard deviation and its rank ( Higher total score , worse performance)
 * Put all of them to quantify total final score. to find which fund to invest.
 
 ### [funds_buyhold_perf_analystics.ipynb](https://github.com/technqvi/FinQuant/blob/master/funds_buyhold_perf_analystics.ipynb)
